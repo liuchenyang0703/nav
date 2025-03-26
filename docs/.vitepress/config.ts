@@ -2,7 +2,7 @@ import {defineConfig} from "vitepress";
 
 export default defineConfig({
 
-    base: '/nav',
+    base: '/nav/',
 
     title: "Mr.Liucy导航",
     lang: "zh-CN",
