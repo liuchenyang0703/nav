@@ -541,6 +541,120 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: '软件官网',
+    desc: '提供各类软件的官方网站链接',
+    items: [
+      {
+        title: 'MAS',
+        icon: 'https://massgrave.dev/img/favicon.ico',
+        desc: '提供Mac应用商店的替代方案',
+        link: 'https://massgrave.dev/'
+      },
+      {
+        title: '7-Zip',
+        icon: 'https://logo.clearbit.com/www.7-zip.org',
+        desc: '免费开源的文件压缩工具',
+        link: 'https://www.7-zip.org/'
+      },
+      {
+        title: 'Fliqlo',
+        icon: 'https://logo.clearbit.com/fliqlo.com',
+        desc: '提供动态壁纸和屏幕保护程序',
+        link: 'https://fliqlo.com/'
+      },
+      {
+        title: 'PicGo',
+        icon: 'https://logo.clearbit.com/molunerfinn.com',
+        desc: '图片上传工具，支持多种图床',
+        link: 'https://molunerfinn.com/PicGo/'
+      },
+      {
+        title: 'PuTTY',
+        icon: 'https://www.leixue.com/uploads/2019/07/PuTTY.png',
+        desc: '免费的SSH和Telnet客户端',
+        link: 'https://www.putty.org/'
+      },
+      {
+        title: 'Motrix',
+        icon: 'https://logo.clearbit.com/motrix.app',
+        desc: '多功能下载管理器',
+        link: 'https://motrix.app/'
+      },
+      {
+        title: 'Ventoy',
+        icon: 'https://logo.clearbit.com/www.ventoy.net',
+        desc: '多系统启动U盘制作工具',
+        link: 'https://www.ventoy.net/cn/index.html'
+      },
+      {
+        title: 'WinRAR',
+        icon: 'https://www.rarlab.com/favicon.ico',
+        desc: '流行的文件压缩工具',
+        link: 'https://www.rarlab.com/'
+      },
+      {
+        title: 'UniGetUI',
+        icon: 'https://www.marticliment.com/favicon.ico',
+        desc: 'Windows软件包管理器界面',
+        link: 'https://www.marticliment.com/wingetui/'
+      },
+      {
+        title: 'FinalShell',
+        icon: 'https://inews.gtimg.com/newsapp_bt/0/13582661137/1000',
+        desc: '高效的服务器管理工具',
+        link: 'https://www.finalshell.cn/'
+      },
+      {
+        title: 'xManager',
+        icon: 'https://static.wixstatic.com/ficons/01dd63_70fe9f869d9d4763b3578a50dd4e1f6c%7Emv2.ico',
+        desc: 'X Window系统管理工具',
+        link: 'https://www.xmanagerapp.com/'
+      },
+      {
+        title: '微PE工具箱',
+        icon: 'https://www.wepe.com.cn/favicon.ico',
+        desc: 'Windows PE启动工具箱',
+        link: 'http://www.wepe.com.cn/'
+      },
+      {
+        title: 'DiskGenius',
+        icon: 'https://www.diskgenius.cn/favicon.ico',
+        desc: '强大的磁盘分区和数据恢复工具',
+        link: 'https://www.diskgenius.cn/'
+      },
+      {
+        title: 'angusj.com',
+        icon: 'https://www.angusj.com/favicon.ico',
+        desc: '提供多种编程工具和资源',
+        link: 'https://www.angusj.com/'
+      },
+      {
+        title: 'CR TubeGet',
+        icon: 'https://www.cr-soft.net/favicon.ico',
+        desc: '视频下载工具',
+        link: 'http://www.cr-soft.net/crtubeget.html'
+      },
+      {
+        title: '晨钟网络科技',
+        icon: 'https://jamcz.com/favicon.ico',
+        desc: '提供多种网络工具和软件',
+        link: 'https://jamcz.com/'
+      },
+      {
+        title: 'DNS Jumper',
+        icon: 'https://dnsjumper.net/wp-content/uploads/2024/02/DNS-Jumper.png',
+        desc: '快速切换DNS服务器的工具',
+        link: 'https://dnsjumper.net/'
+      },
+      {
+        title: 'Office Tool Plus',
+        icon: 'https://otp.landian.vip/favicon.ico',
+        desc: 'Office工具和激活解决方案',
+        link: 'https://otp.landian.vip/zh-cn/'
+      }
+    ]
+  },
+  {
     title: '设计工具',
     desc: '收录的设计工具',
     items: [
@@ -549,37 +663,13 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://img.js.design/assets/webImg/favicon.ico',
         desc: '同时创造，即时设计',
         link: 'https://js.design/'
-      }
-    ]
-  },
-  {
-    title: 'WEB网页设计',
-    desc: '灵感酷站',
-    items: [
-      {
-        title: 'Pinterest',
-        icon: 'https://pngimg.com/uploads/pinterest/pinterest_PNG63.png',
-        desc: 'Pintester 国外图片资源',
-        link: 'https://www.pinterest.com/'
       },
       {
-        title: 'Dribbble',
-        icon: 'https://tse4-mm.cn.bing.net/th/id/OIP-C.RLVRjameUVvXbSNFl5xXKwHaHa?pid=ImgDet&rs=1',
-        desc: '设计师必备站点，国内顶尖的设计师都在上面',
-        link: 'https://dribbble.com/'
+        title: '可画',
+        icon: 'https://static.canva.cn/static/images/favicon-1.ico',
+        desc: '可画',
+        link: 'https://www.canva.cn/'
       },
-      {
-        title: '大作',
-        icon: 'https://xcx.bigbigwork.com/pimg/favicon.ico',
-        desc: '国内图片资源',
-        link: 'https://bigbigwork.com/'
-      },
-      {
-        title: 'instructables',
-        icon: 'https://www.instructables.com/assets/img/siteassets/apple-touch-icon-192x192.png',
-        desc: '电子电气作品',
-        link: 'https://www.instructables.com/'
-      }
     ]
   },
   {
@@ -971,6 +1061,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://vuepress.vuejs.org/zh'
       },
       {
+        title: 'VuePress Theme Hope',
+        icon: 'https://theme-hope.vuejs.press/favicon.ico',
+        desc: 'VuePress Theme Hope 个人网站主题',
+        link: 'https://theme-hope.vuejs.press/zh/'
+      },
+      {
         title: 'dumi',
         icon: 'https://gw.alipayobjects.com/zos/bmw-prod/d3e3eb39-1cd7-4aa5-827c-877deced6b7e/lalxt4g3_w256_h256.png',
         desc: '基于 Umi 为组件研发而生的静态站点框架',
@@ -1105,7 +1201,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '图文编辑',
+    title: '文档编辑',
     desc: '',
     items: [
       {
@@ -1152,7 +1248,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: '腾讯文档',
-        icon: 'https://logo.clearbit.com/docs.qq.com',
+        icon: 'https://docs.gtimg.com/desktop/favicon2.ico',
         desc: '腾讯推出的在线文档工具',
         link: 'https://docs.qq.com/desktop'
       },
@@ -1203,72 +1299,6 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://logo.clearbit.com/cli.im',
         desc: '在线二维码生成工具',
         link: 'https://cli.im/'
-      }
-    ]
-  },
-  {
-    title: '在线平台',
-    desc: '',
-    items: [
-      {
-        title: 'Tidio',
-        icon: 'https://logo.clearbit.com/www.tidio.com',
-        desc: '在线客服平台',
-        link: 'https://www.tidio.com/panel/dashboard'
-      },
-      {
-        title: 'Crx搜搜',
-        icon: 'https://logo.clearbit.com/www.crxsoso.com',
-        desc: 'Chrome扩展搜索平台',
-        link: 'https://www.crxsoso.com/'
-      },
-      {
-        title: '明月浩空',
-        icon: 'https://myhkw.cn/favicon.ico',
-        desc: '个人网站',
-        link: 'https://myhkw.cn/'
-      },
-      {
-        title: '和风天气',
-        icon: 'https://logo.clearbit.com/console.qweather.com',
-        desc: '天气数据服务平台',
-        link: 'https://console.qweather.com/'
-      },
-      {
-        title: 'PicX 图床',
-        icon: 'https://logo.clearbit.com/picx.xpoet.cn',
-        desc: '图床服务',
-        link: 'https://picx.xpoet.cn/'
-      },
-      {
-        title: 'GeoGebra',
-        icon: 'https://logo.clearbit.com/www.geogebra.org',
-        desc: '数学图形绘制工具',
-        link: 'https://www.geogebra.org/'
-      },
-      {
-        title: '显示器检测',
-        icon: 'https://logo.clearbit.com/screen.bmcx.com',
-        desc: '显示器性能检测工具',
-        link: 'https://screen.bmcx.com/#welcome'
-      },
-      {
-        title: 'Composerize',
-        icon: 'https://logo.clearbit.com/www.composerize.com',
-        desc: '音乐作曲工具',
-        link: 'https://www.composerize.com/'
-      },
-      {
-        title: 'Tune My Music',
-        icon: 'https://logo.clearbit.com/www.tunemymusic.com',
-        desc: '音乐调音工具',
-        link: 'https://www.tunemymusic.com/zh-CN'
-      },
-      {
-        title: 'Linux 命令搜索引擎',
-        icon: 'https://logo.clearbit.com/wangchujiang.com',
-        desc: 'Linux命令搜索工具',
-        link: 'https://wangchujiang.com/linux-command/'
       }
     ]
   },
@@ -1396,42 +1426,18 @@ export const NAV_DATA: NavData[] = [
         desc: '提供免费HTTPS证书申请，支持多种证书类型和自动化部署',
         link: 'https://freessl.cn/'
       },
-      {
-        title: 'LookSSL',
-        icon: 'https://www.lookssl.com/ssl-logo-only.png',
-        desc: '提供免费SSL证书，支持多种验证方式，适合个人和小型企业',
-        link: 'https://www.lookssl.com/'
-      },
-      {
-        title: 'Free SSL',
-        icon: 'https://freessl.org/favicon.ico',
-        desc: '提供免费SSL证书和自动化工具，支持ACME集成',
-        link: 'https://freessl.org/'
-      },
-      {
-        title: 'SSL For Free',
-        icon: 'https://www.sslforfree.com/assets/images/shortcut.ico',
-        desc: '提供免费SSL证书服务，支持快速签发',
-        link: 'https://www.sslforfree.com/'
-      }
     ]
   },
   {
-    title: '域名查询',
-    desc: '域名信息查询工具',
+    title: '域名相关',
+    desc: '域名信息查询工具、域名注册服务提供商',
     items: [
       {
         title: '狗狗查询',
         icon: 'https://www.ggcx.com/favicon.ico',
         desc: '提供域名查询和分析服务',
         link: 'https://www.ggcx.com/'
-      }
-    ]
-  },
-  {
-    title: '域名注册',
-    desc: '域名注册服务提供商',
-    items: [
+      },
       {
         title: 'US.KG',
         icon: 'https://logo.clearbit.com/nic.us.kg',
@@ -1479,7 +1485,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://logo.clearbit.com/subreg.cz',
         desc: '提供域名注册服务，支持多种域名类型',
         link: 'https://subreg.cz/en/'
-      }
+      },
     ]
   },
   {
@@ -1563,156 +1569,6 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://logo.clearbit.com/alternativeto.net',
         desc: '提供软件的替代品推荐',
         link: 'https://alternativeto.net/'
-      }
-    ]
-  },
-  {
-    title: '软件官网',
-    desc: '提供各类软件的官方网站链接',
-    items: [
-      {
-        title: 'MAS',
-        icon: 'https://massgrave.dev/img/favicon.ico',
-        desc: '提供Mac应用商店的替代方案',
-        link: 'https://massgrave.dev/'
-      },
-      {
-        title: '7-Zip',
-        icon: 'https://logo.clearbit.com/www.7-zip.org',
-        desc: '免费开源的文件压缩工具',
-        link: 'https://www.7-zip.org/'
-      },
-      {
-        title: 'Fliqlo',
-        icon: 'https://logo.clearbit.com/fliqlo.com',
-        desc: '提供动态壁纸和屏幕保护程序',
-        link: 'https://fliqlo.com/'
-      },
-      {
-        title: 'PicGo',
-        icon: 'https://logo.clearbit.com/molunerfinn.com',
-        desc: '图片上传工具，支持多种图床',
-        link: 'https://molunerfinn.com/PicGo/'
-      },
-      {
-        title: 'PuTTY',
-        icon: 'https://www.leixue.com/uploads/2019/07/PuTTY.png',
-        desc: '免费的SSH和Telnet客户端',
-        link: 'https://www.putty.org/'
-      },
-      {
-        title: 'Motrix',
-        icon: 'https://logo.clearbit.com/motrix.app',
-        desc: '多功能下载管理器',
-        link: 'https://motrix.app/'
-      },
-      {
-        title: 'Ventoy',
-        icon: 'https://logo.clearbit.com/www.ventoy.net',
-        desc: '多系统启动U盘制作工具',
-        link: 'https://www.ventoy.net/cn/index.html'
-      },
-      {
-        title: 'WinRAR',
-        icon: 'https://www.rarlab.com/favicon.ico',
-        desc: '流行的文件压缩工具',
-        link: 'https://www.rarlab.com/'
-      },
-      {
-        title: 'UniGetUI',
-        icon: 'https://www.marticliment.com/favicon.ico',
-        desc: 'Windows软件包管理器界面',
-        link: 'https://www.marticliment.com/wingetui/'
-      },
-      {
-        title: 'FinalShell',
-        icon: 'https://inews.gtimg.com/newsapp_bt/0/13582661137/1000',
-        desc: '高效的服务器管理工具',
-        link: 'https://www.finalshell.cn/'
-      },
-      {
-        title: 'xManager',
-        icon: 'https://static.wixstatic.com/ficons/01dd63_70fe9f869d9d4763b3578a50dd4e1f6c%7Emv2.ico',
-        desc: 'X Window系统管理工具',
-        link: 'https://www.xmanagerapp.com/'
-      },
-      {
-        title: '微PE工具箱',
-        icon: 'https://www.wepe.com.cn/favicon.ico',
-        desc: 'Windows PE启动工具箱',
-        link: 'http://www.wepe.com.cn/'
-      },
-      {
-        title: 'DiskGenius',
-        icon: 'https://www.diskgenius.cn/favicon.ico',
-        desc: '强大的磁盘分区和数据恢复工具',
-        link: 'https://www.diskgenius.cn/'
-      },
-      {
-        title: 'angusj.com',
-        icon: 'https://www.angusj.com/favicon.ico',
-        desc: '提供多种编程工具和资源',
-        link: 'https://www.angusj.com/'
-      },
-      {
-        title: 'CR TubeGet',
-        icon: 'https://www.cr-soft.net/favicon.ico',
-        desc: '视频下载工具',
-        link: 'http://www.cr-soft.net/crtubeget.html'
-      },
-      {
-        title: '晨钟网络科技',
-        icon: 'https://jamcz.com/favicon.ico',
-        desc: '提供多种网络工具和软件',
-        link: 'https://jamcz.com/'
-      },
-      {
-        title: 'DNS Jumper',
-        icon: 'https://dnsjumper.net/wp-content/uploads/2024/02/DNS-Jumper.png',
-        desc: '快速切换DNS服务器的工具',
-        link: 'https://dnsjumper.net/'
-      },
-      {
-        title: 'Office Tool Plus',
-        icon: 'https://otp.landian.vip/favicon.ico',
-        desc: 'Office工具和激活解决方案',
-        link: 'https://otp.landian.vip/zh-cn/'
-      }
-    ]
-  },
-  {
-    title: '大全',
-    desc: '各类资源和信息的大全网站',
-    items: [
-      {
-        title: '合集网',
-        icon: 'https://233heji.com/favicon.ico',
-        desc: '提供多种信息资源和工具的合集网站',
-        link: 'https://233heji.com/'
-      },
-      {
-        title: '找字体',
-        icon: 'https://zfont.cn/favicon.ico',
-        desc: '提供免费字体下载和在线查找字体的网站',
-        link: 'https://zfont.cn/'
-      },
-      {
-        title: '字体大全',
-        icon: 'https://www.diyiziti.com/favicon.ico',
-        desc: '提供多种书法艺术字体和中文字体下载的网站',
-        link: 'http://www.diyiziti.com/List'
-      },
-      {
-        title: '颜色表大全',
-        icon: 'https://www.5tu.cn/favicon.ico',
-        desc: '提供颜色代码和设计配色表的网站',
-        link: 'https://www.5tu.cn/colors/yansebiao.html'
-      },
-      {
-        title: 'emoji表情大全',
-        icon: 'https://emoji6.com/emojiall/favicon.ico',
-        desc: '提供emoji表情符号大全的网站',
-        link: 'https://emoji6.com/emojiall/'
       }
     ]
   },
@@ -1865,17 +1721,35 @@ export const NAV_DATA: NavData[] = [
         link: 'http://www.1ppt.com/'
       },
       {
-        title: '办公资源网',
-        icon: 'https://www.bangongziyuan.com/web/foreground/images/favicon.ico',
-        desc: '提供多种办公资源和模板',
-        link: 'https://www.bangongziyuan.com/'
+        title: '合集网',
+        icon: 'https://233heji.com/favicon.ico',
+        desc: '提供多种信息资源和工具的合集网站',
+        link: 'https://233heji.com/'
       },
       {
-        title: 'OfficePLUS',
-        icon: 'https://www.officeplus.cn/favicon.svg',
-        desc: '提供高质量的办公模板和资源',
-        link: 'https://www.officeplus.cn/'
-      }
+        title: '找字体',
+        icon: 'https://zfont.cn/favicon.ico',
+        desc: '提供免费字体下载和在线查找字体的网站',
+        link: 'https://zfont.cn/'
+      },
+      {
+        title: '字体大全',
+        icon: 'https://www.diyiziti.com/favicon.ico',
+        desc: '提供多种书法艺术字体和中文字体下载的网站',
+        link: 'http://www.diyiziti.com/List'
+      },
+      {
+        title: '颜色表大全',
+        icon: 'https://www.5tu.cn/favicon.ico',
+        desc: '提供颜色代码和设计配色表的网站',
+        link: 'https://www.5tu.cn/colors/yansebiao.html'
+      },
+      {
+        title: 'emoji表情大全',
+        icon: 'https://emoji6.com/emojiall/favicon.ico',
+        desc: '提供emoji表情符号大全的网站',
+        link: 'https://emoji6.com/emojiall/'
+      },
     ]
   },
   {
