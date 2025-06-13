@@ -24,7 +24,7 @@
 }
 
 // 注释超链接的下划线
-.VPFooter[data-v-0d2ec971] a {
+.VPFooter .copyright a {
     text-decoration-line: none;
     text-underline-offset: 2px;
     transition: color 0.25s;
@@ -33,13 +33,15 @@
 }
 
 // 鼠标悬停时颜色保持为蓝色
-.VPFooter[data-v-0d2ec971] a:hover {
+.VPFooter .copyright a:hover {
     color: rgb(7.1084070796, 86.0907079646, 171.3915929204);
 }
 
-.message[data-v-0d2ec971], .copyright[data-v-0d2ec971] {
-      line-height: 24px;
+// 调整了黑色字体颜色
+.VPFooter .copyright {
+    line-height: 24px;
     font-size: 14px;
     font-weight: 500;
     color: rgba(60, 60, 67, .78);
+    // color: red;
 }
