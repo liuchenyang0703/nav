@@ -91,38 +91,8 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '人工智能',
-    desc: '',
-    items: [
-      {
-        title: 'Cursor',
-        icon: 'https://logo.clearbit.com/www.cursor.com',
-        desc: '人工智能工具',
-        link: 'https://www.cursor.com/'
-      },
-      {
-        title: 'Gemini',
-        icon: 'https://logo.clearbit.com/gemini.google.com',
-        desc: '人工智能工具',
-        link: 'https://gemini.google.com/'
-      },
-      {
-        title: 'ChatBox',
-        icon: 'https://logo.clearbit.com/web.chatboxai.app',
-        desc: '人工智能工具',
-        link: 'https://web.chatboxai.app/'
-      },
-      {
-        title: 'Perplexity',
-        icon: 'https://logo.clearbit.com/www.perplexity.ai',
-        desc: '人工智能工具',
-        link: 'https://www.perplexity.ai/'
-      }
-    ]
-  },
-  {
-    title: '开源社区',
-    desc: '开发者代码开源社区',
+    title: '代码托管平台',
+    desc: '开发者代码开源社区、托管平台',
     items: [
       {
         title: 'Github',
@@ -183,7 +153,253 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
         desc: '中文互联网高质量的问答社区和创作者聚集的原创内容平台',
         link: 'https://juejin.cn'
-      }
+      },
+      {
+        title: '51CTO',
+        icon: 'https://blog.51cto.com/favicon.ico',
+        desc: '面向全球中文开发者的技术内容分享与交流平台',
+        link: 'https://blog.51cto.com/index/index'
+      },
+      {
+        title: '华为云开发者社区',
+        icon: 'https://bbs.huaweicloud.com/favicon.ico',
+        desc: '面向全球中文开发者的技术内容分享与交流平台',
+        link: 'https://bbs.huaweicloud.com/blogs'
+      },
+      {
+        title: '阿里云开发者社区',
+        icon: 'https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico',
+        desc: '面向全球中文开发者的技术内容分享与交流平台',
+        link: 'https://developer.aliyun.com/'
+      },
+    ]
+  },
+  {
+    title: '运维服务官网',
+    desc: 'Linux运维服务官网',
+    items: [
+      {
+        title: 'Docker 官网',
+        icon: 'https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-32x32.png',
+        desc: 'Docker 官网',
+        link: 'https://www.docker.com/'
+      },
+      {
+        title: 'Dockerhub 官网',
+        icon: 'https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-32x32.png',
+        desc: 'Dockerhub 官网',
+        link: 'https://hub.docker.com/'
+      },
+      {
+        title: 'Kubernetes 官网',
+        icon: 'https://kubernetes.io/icons/favicon-32.png',
+        desc: 'Kubernetes 官网',
+        link: 'https://kubernetes.io/'
+      },
+      {
+        title: 'vmware 官网',
+        icon: 'https://www.vmware.com/vm-favicon.png',
+        desc: 'vmware 官网',
+        link: 'https://www.vmware.com/'
+      },
+      {
+        title: 'MariaDB 官网',
+        icon: 'https://mariadb.com/favicon.ico',
+        desc: 'MariaDB 官网',
+        link: 'https://mariadb.com/'
+      },
+      {
+        title: 'MySQL 官网',
+        icon: 'https://labs.mysql.com/common/themes/sakila/favicon.ico',
+        desc: 'MySQL 官网',
+        link: 'https://www.mysql.com/'
+      },
+      {
+        title: 'Redis 官网',
+        icon: 'https://redis.io/favicon.ico',
+        desc: 'Redis 官网',
+        link: 'https://redis.io/'
+      },
+      {
+        title: '达梦数据库 官网',
+        icon: 'https://www.dameng.com/images/logo.ico',
+        desc: '达梦数据库 官网',
+        link: 'https://www.dameng.com/'
+      },
+      {
+        title: 'Zabbix 官网',
+        icon: 'https://assets.zabbix.com/img/favicon.ico',
+        desc: 'Zabbix 官网',
+        link: 'https://www.zabbix.com/'
+      },
+      {
+        title: 'prometheus 官网',
+        icon: 'https://prometheus.io/icon.svg',
+        desc: 'prometheus 官网',
+        link: 'https://prometheus.io/'
+      },
+      {
+        title: 'Git 官网',
+        icon: 'https://git-scm.com/favicon.ico',
+        desc: 'Git 官网',
+        link: 'https://git-scm.com/'
+      },
+      {
+        title: 'SVN 官网',
+        icon: 'https://subversion.apache.org/icon.png',
+        desc: 'SVN 官网',
+        link: 'https://subversion.apache.org/'
+      },
+      {
+        title: 'Jenkins 官网',
+        icon: 'https://www.jenkins.io/favicon.ico',
+        desc: 'Jenkins 官网',
+        link: 'https://www.jenkins.io/'
+      },
+      {
+        title: 'Jumpserver 官网',
+        icon: 'https://www.jumpserver.org/images/logo/favicon.ico',
+        desc: 'Jumpserver 官网',
+        link: 'https://www.jumpserver.org/'
+      },
+      {
+        title: 'Nginx 官网',
+        icon: 'https://nginx.org/favicon.ico',
+        desc: 'Nginx 官网',
+        link: 'https://nginx.org/'
+      },
+      {
+        title: 'Tomcat 官网',
+        icon: 'https://tomcat.apache.org/favicon.ico',
+        desc: 'Tomcat 官网',
+        link: 'https://tomcat.apache.org/'
+      },
+      {
+        title: 'Apache 官网',
+        icon: 'https://httpd.apache.org/favicon.ico',
+        desc: 'Apache 官网',
+        link: 'https://httpd.apache.org/'
+      },
+      {
+        title: 'NVIDIA 官网',
+        icon: 'https://www.nvidia.cn/favicon.ico',
+        desc: 'NVIDIA 官网',
+        link: 'https://www.nvidia.cn/drivers/lookup/'
+      },
+      {
+        title: 'Openssh 官网',
+        icon: 'https://openssl-library.org/favicon.ico',
+        desc: 'Openssh 官网',
+        link: 'https://www.openssh.com/'
+      },
+      {
+        title: 'pip 官网',
+        icon: 'https://pypi.org/static/images/favicon.35549fe8.ico',
+        desc: 'pip 官网',
+        link: 'https://pypi.org/project/pip/'
+      },
+      {
+        title: 'PHP 官网',
+        icon: 'https://www.php.net/favicon.ico',
+        desc: 'PHP 官网',
+        link: 'https://www.php.net/'
+      },
+      {
+        title: 'Python 官网',
+        icon: 'https://www.python.org/favicon.ico',
+        desc: 'Python 官网',
+        link: 'https://www.python.org/'
+      },
+      {
+        title: 'JDK 官网',
+        icon: 'https://www.oracle.com/asset/web/favicons/favicon-32.png',
+        desc: 'JDK 官网',
+        link: 'https://www.oracle.com/cn/java/technologies/downloads/archive/?source=:ow:o:s:nav::DevoGetStarted'
+      },
+      {
+        title: 'Nodejs 官网',
+        icon: 'https://nodejs.org/static/images/favicons/favicon.png',
+        desc: 'Nodejs 官网',
+        link: 'https://nodejs.org/zh-cn'
+      },
+    ]
+  },
+  {
+    title: '运维服务安装包下载地址',
+    desc: '',
+    items: [
+      {
+        title: 'Redis 二进制包下载地址',
+        icon: 'https://redis.io/favicon.ico',
+        desc: '提供redis各版本下载地址。',
+        link: 'https://download.redis.io/releases/'
+      },
+      {
+        title: 'Nodejs 二进制包下载地址',
+        icon: 'https://nodejs.org/favicon.ico',
+        desc: '提供Nodejs各版本、各架构、各系统下载地址。',
+        link: 'https://nodejs.org/download/release/'
+      },
+      {
+        title: 'Docker离线安装包地址',
+        icon: 'https://download.docker.com/favicon.ico',
+        desc: 'Docker离线安装包地址，有很多版本及架构可以下载。',
+        link: 'https://download.docker.com/linux/static/stable/'
+      },
+      {
+        title: 'GCC 二进制包下载地址',
+        icon: 'https://gcc.gnu.org/favicon.ico',
+        desc: '提供GCC各版本、各系统下载地址。',
+        link: 'https://ftp.gnu.org/gnu/gcc/'
+      },
+      {
+        title: 'Apache 二进制包下载地址',
+        icon: 'https://httpd.apache.org/favicon.ico',
+        desc: '提供Apache各版本下载地址。',
+        link: 'https://httpd.apache.org/'
+      },
+      {
+        title: 'Tomcat 二进制包下载地址',
+        icon: 'https://tomcat.apache.org/favicon.ico',
+        desc: '提供Tomcat各版本下载地址。',
+        link: 'https://tomcat.apache.org/'
+      },
+      {
+        title: 'Nginx 二进制包下载地址',
+        icon: 'https://nginx.org/favicon.ico',
+        desc: '提供Nginx各版本下载地址。',
+        link: 'https://nginx.org/en/download.html'
+      },
+      {
+        title: 'Openssl 二进制包下载地址',
+        icon: 'https://openssl-library.org/favicon.ico',
+        desc: '提供Openssl各版本下载地址。',
+        link: 'https://openssl-library.org/source/old/index.html'
+      },
+      {
+        title: 'Openssh 二进制包下载地址',
+        icon: 'https://www.openssh.com/favicon.ico',
+        desc: '提供Openssh各版本下载地址。',
+        link: 'https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/'
+      },
+      {
+        title: 'Mysql 安装包下载地址',
+        icon: 'https://labs.mysql.com/common/themes/sakila/favicon.ico',
+        desc: '提供Mysql各版本、各系统下载地址。',
+        link: 'https://downloads.mysql.com/archives/community/'
+      },
+      {
+        title: 'JDK 二进制包下载地址',
+        icon: 'https://www.oracle.com/asset/web/favicons/favicon-32.png',
+        desc: '提供JDK各版本、各系统下载地址。',
+        link: 'https://www.oracle.com/cn/java/technologies/downloads/'
+      },
+      {
+        title: 'Python 离线包下载地址',
+        icon: 'https://www.python.org/favicon.ico',
+        desc: '提供Python各版本、各系统下载地址。',
+        link: 'https://www.python.org/ftp/python/'
+      },
     ]
   },
   {
@@ -277,7 +493,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '开源镜像',
+    title: '开源镜像站',
     desc: '',
     items: [
       {
