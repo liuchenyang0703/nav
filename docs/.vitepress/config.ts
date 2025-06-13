@@ -46,7 +46,7 @@ export default defineConfig({
         ],
         footer: {
             message: '',
-            copyright: '<a href="https://liuchenyang.top/person.html" target="_blank">个人网站</a> | MIT 协议 | <a href="https://liuchenyang.top/person.html" target="_blank">关于作者</a><br> \
+            copyright: '<a href="https://liuchenyang.top" target="_blank">个人网站</a> | MIT 协议 | <a href="https://liuchenyang.top/person.html" target="_blank">关于作者</a><br> \
              版权所有 © 2023-present Mr.Liucy | <img src="https://lcy-blog.oss-cn-beijing.aliyuncs.com/blog/202312142253822.png" height="15" width="15" style="display: inline; vertical-align: middle;" /> <a href="http://beian.miit.gov.cn/" target="_blank">京ICP备2023037493号</a> | <img src="https://icp.gov.moe/favicon.ico" height="15" width="15" style="display: inline; vertical-align: middle;" /> <a href="https://icp.gov.moe/?keyword=20250703" target="_blank">萌ICP备20250703号</a>'            
         },
         darkModeSwitchLabel: '外观',
