@@ -10,7 +10,7 @@ REM Commit changes to the local repository
 git commit -m "%commitMessage%"
 
 REM Push changes to the remote repository
-git push https://github.com/liuchenyang0703/nav-tools.git master:master
+git push https://github.com/liuchenyang0703/nav.git master:master
 
 REM Display completion message
 echo Commit completed!
