@@ -361,58 +361,57 @@
                                     <path class="line--3" d="M0 60h62c18 0 18 20-17-5L31 45"></path>
                                 </svg>
                             </label>
-
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
-                        
-			<li >
-				<a href="/nav/">
+                            
+                            <li >
+                                <a href="/nav/" >
                                     <i class="fa fa-home fa-lg mr-2"></i>
                                     <span>首页</span>
                                 </a>
-				<ul class="sub-menu">
-				
-				</ul>
-			    </li>
-			
-			<li >
-				<a href="https://liuchenyang.top/person.html">
+                                <ul class="sub-menu">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li >
+                                <a href="https://liuchenyang.top/person.html" target="_blank">
                                     <i class="fa fa-user-alt fa-lg mr-2"></i>
                                     <span>作者</span>
                                 </a>
-				<ul class="sub-menu">
-				
-				</ul>
-			    </li>
-			
-			<li >
-				<a href="https://liuchenyang.top/donate.html">
+                                <ul class="sub-menu">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li >
+                                <a href="https://liuchenyang.top/donate.html" target="_blank">
                                     <i class="fas fa-hand-holding-usd fa-lg mr-2"></i>
                                     <span>赞赏</span>
                                 </a>
-				<ul class="sub-menu">
-				
-				</ul>
-			    </li>
-			
-			<li class="menu-item-has-children">
-				<a href="">
+                                <ul class="sub-menu">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li class="menu-item-has-children">
+                                <a href="" target="_blank">
                                     <i class="fa fa-cog fa-lg mr-2"></i>
                                     <span>关于</span>
                                 </a>
-				<ul class="sub-menu">
-				
-				    <li><a href="./deploy/index.html">教程</a></li>
-				
-				    <li><a href="https://github.com/liuchenyang0703/nav-tools/">源码</a></li>
-				
-				    <li><a href="https://fontawesome.com/v5/search?o=r&amp;m=free">图标库</a></li>
-				
-				</ul>
-			    </li>
-			
-			</ul>
+                                <ul class="sub-menu">
+                                    
+                                    <li><a href="./deploy/index.html" target="_blank">教程</a></li>
+                                    
+                                    <li><a href="https://github.com/liuchenyang0703/nav-tools/" target="_blank">源码</a></li>
+                                    
+                                    <li><a href="https://fontawesome.com/v5/search?o=r&amp;m=free" target="_blank">图标库</a></li>
+                                    
+                                </ul>
+                            </li>
+                            
+                        </ul>
 
                         
                     </div>
@@ -425,15 +424,14 @@
                                 fetch('https://v1.hitokoto.cn')
                                     .then(response => response.json())
                                     .then(data => {
-                                    const hitokoto = document.getElementById('hitokoto_text')
-                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
-                                    hitokoto.innerText = data.hitokoto
+                                        const hitokoto = document.getElementById('hitokoto_text')
+                                        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                        hitokoto.innerText = data.hitokoto
                                     })
                                     .catch(console.error)
-                            </script>                           
+                            </script>
                             <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
                         </li>
-                        
                         
                         
                         <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
@@ -446,7 +444,6 @@
         </div>
         <div class="placeholder" style="height:74px"></div>
     </div>
-
 
 <div class="header-big  post-top css-color mb-4" id="search-bg" style="">
     <div class="s-search">
