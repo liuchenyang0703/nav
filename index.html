@@ -538,8 +538,21 @@
                                     .catch(console.error)
                             </script>
                                 <style>
-                                    .menu-weather #tp-weather-widget{ color:inherit !important; }
-                                    .menu-weather #tp-weather-widget *{ color:inherit !important; fill:currentColor !important; }
+                                     
+                                    .menu-weather #tp-weather-widget {
+                                        color: inherit !important;
+                                    }
+
+                                    .menu-weather #tp-weather-widget * {
+                                        color: inherit !important;
+                                        fill: currentColor !important;
+                                    }
+
+                                     
+                                    .menu-weather #tp-weather-widget:hover .sw-card-slim-background.sc-caSCKo.jkISYm,
+                                    .menu-weather #tp-weather-widget:hover .sw-card-slim-background.sc-caSCKo.jkISYm * {
+                                        color: #FFFFFF !important;  
+                                    }
                                 </style>
                                 <script>
                                     (function(){
