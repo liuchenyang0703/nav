@@ -451,6 +451,9 @@
                                     
                                 </ul>
                             </li>
+
+                            
+
                             
                             <li >
                                 <a href="https://liuchenyang.top/person.html" target="_blank">
@@ -461,6 +464,9 @@
                                     
                                 </ul>
                             </li>
+
+                            
+
                             
                             <li >
                                 <a href="https://liuchenyang.top/donate.html" target="_blank">
@@ -471,6 +477,9 @@
                                     
                                 </ul>
                             </li>
+
+                            
+
                             
                             <li class="menu-item-has-children">
                                 <a href="" target="_blank">
@@ -487,6 +496,27 @@
                                     
                                 </ul>
                             </li>
+
+                            
+                            <li class="menu-weather d-flex align-items-center ml-3" style="list-style:none; margin-left:14px;">
+                                <div id="tp-weather-widget" style="display:inline-block; vertical-align:middle; color:inherit;"></div>
+                                <script>
+                                    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+                                    window.SeniverseWeatherWidget('show', {
+                                      flavor: "slim",
+                                      location: "WX4FBXXFKE4F",
+                                      geolocation: true,
+                                      language: "zh-Hans",
+                                      unit: "c",
+                                      theme: "auto",
+                                      token: "f46f0987-ff27-47ee-a416-ae7d7692459e",
+                                      hover: "enabled",
+                                      container: "tp-weather-widget"
+                                    })
+                                </script>
+                            </li>
+                            
+
                             
                         </ul>
 
@@ -507,6 +537,36 @@
                                     })
                                     .catch(console.error)
                             </script>
+                                <style>
+                                    .menu-weather #tp-weather-widget{ color:inherit !important; }
+                                    .menu-weather #tp-weather-widget *{ color:inherit !important; fill:currentColor !important; }
+                                </style>
+                                <script>
+                                    (function(){
+                                        var widget = document.getElementById('tp-weather-widget');
+                                        function getRef(){
+                                            return document.querySelector('.navbar .site-menu a span') || document.querySelector('.navbar .nav-item a') || document.querySelector('.navbar-brand');
+                                        }
+                                        function updateColor(){
+                                            try{
+                                                var ref = getRef();
+                                                if(!ref || !widget) return;
+                                                var color = window.getComputedStyle(ref).color || '';
+                                                widget.style.color = color;
+                                                
+                                                widget.style.setProperty('--tp-color', color);
+                                            }catch(e){}
+                                        }
+                                        updateColor();
+                                        var ticking = false;
+                                        window.addEventListener('scroll', function(){ if(!ticking){ window.requestAnimationFrame(function(){ updateColor(); ticking = false; }); ticking = true; } }, {passive:true});
+                                        window.addEventListener('resize', updateColor);
+                                        var header = document.getElementById('header') || document.querySelector('.page-header');
+                                        if(header){ new MutationObserver(updateColor).observe(header, {attributes:true, attributeFilter:['class','style']}); }
+                                        
+                                        window.addEventListener('load', function(){ setTimeout(updateColor, 300); });
+                                    })();
+                                </script>
                             <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
                         </li>
                         
@@ -6176,7 +6236,7 @@
                     <div class="url-body default">
 			
 			
-                            <a href="https://juejin.cn" target="_blank" data-id="" data-url="https://juejin.cn"
+                            <a href="https://www.zhihu.com/" target="_blank" data-id="" data-url="https://www.zhihu.com/"
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="中文互联网高质量的问答社区和创作者聚集的原创内容平台">
 			
                             <div class="card-body">
@@ -6198,7 +6258,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="https://juejin.cn" class="togo text-center text-muted is-views" data-id="689"
+                        <a href="https://www.zhihu.com/" class="togo text-center text-muted is-views" data-id="689"
                             data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>
